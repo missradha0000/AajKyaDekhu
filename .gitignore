@@ -1,8 +1,24 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+*service_account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node / Build artifacts
 node_modules/
 build/
 dist/
 coverage/
+
+# OS & Logs
 .DS_Store
 *.log
-.env*
-!.env.example
